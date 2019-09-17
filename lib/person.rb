@@ -17,6 +17,5 @@ class Person
   end
 end
 
-beyonce = Person.new 
-
+beyonce = Person.new
 beyonce.job = "Singer"
