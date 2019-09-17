@@ -8,11 +8,15 @@ class Person
     @name
   end
   #sets persons job
-  def jobs=(persons_job)
-    @jobs = persons_job
+  def job=(persons_job)
+    @job = persons_job
   end
   #gets persons job
-  def jobs
-    @jobs
+  def job
+    @job
   end
 end
+
+beyonce = Person.new 
+
+beyonce.job = "Singer"
